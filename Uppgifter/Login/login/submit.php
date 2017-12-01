@@ -13,11 +13,11 @@
 	$result=mysqli_query($dbc, $query);
 
     if($row = mysqli_fetch_array($result)){
-        echo "U GOOD";
+        echo "Successfully logged in!";
     }
 	
 	else{
-        echo "Wrong";
+        echo "Wrong password or username!";
     }
 	
 ?>
